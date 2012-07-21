@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828BE38415BAA00000D41F61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828BE38315BA9FFF00D41F61 /* UIKit.framework */; };
+		828BE38615BAA00000D41F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828BE38515BAA00000D41F61 /* Foundation.framework */; };
+		828BE38815BAA00000D41F61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828BE38715BAA00000D41F61 /* CoreGraphics.framework */; };
+		828BE38E15BAA00000D41F61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 828BE38C15BAA00000D41F61 /* InfoPlist.strings */; };
+		828BE39015BAA00000D41F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828BE38F15BAA00000D41F61 /* main.m */; };
+		828BE39415BAA00000D41F61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828BE39315BAA00000D41F61 /* AppDelegate.m */; };
+		828BE39715BAA00000D41F61 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BE39515BAA00000D41F61 /* MainStoryboard_iPhone.storyboard */; };
+		828BE39A15BAA00000D41F61 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BE39815BAA00000D41F61 /* MainStoryboard_iPad.storyboard */; };
+		828BE39D15BAA00000D41F61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828BE39C15BAA00000D41F61 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		828BE37F15BA9FFF00D41F61 /* Missing Emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Missing Emojis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828BE38315BA9FFF00D41F61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		828BE38515BAA00000D41F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		828BE38715BAA00000D41F61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		828BE38B15BAA00000D41F61 /* Missing Emojis-Info.plist */ = {isa = PBXFileReference; path = "Missing Emojis-Info.plist"; sourceTree = "<group>"; };
+		828BE38D15BAA00000D41F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		828BE38F15BAA00000D41F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		828BE39115BAA00000D41F61 /* Missing Emojis-Prefix.pch */ = {isa = PBXFileReference; path = "Missing Emojis-Prefix.pch"; sourceTree = "<group>"; };
+		828BE39215BAA00000D41F61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		828BE39315BAA00000D41F61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		828BE39615BAA00000D41F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		828BE39915BAA00000D41F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		828BE39B15BAA00000D41F61 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		828BE39C15BAA00000D41F61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828BE37C15BA9FFF00D41F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828BE38415BAA00000D41F61 /* UIKit.framework in Frameworks */,
+				828BE38615BAA00000D41F61 /* Foundation.framework in Frameworks */,
+				828BE38815BAA00000D41F61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828BE37415BA9FFF00D41F61 = {
+			isa = PBXGroup;
+			children = (
+				828BE38915BAA00000D41F61 /* Missing Emojis */,
+				828BE38215BA9FFF00D41F61 /* Frameworks */,
+				828BE38015BA9FFF00D41F61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828BE38015BA9FFF00D41F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828BE37F15BA9FFF00D41F61 /* Missing Emojis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828BE38215BA9FFF00D41F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828BE38315BA9FFF00D41F61 /* UIKit.framework */,
+				828BE38515BAA00000D41F61 /* Foundation.framework */,
+				828BE38715BAA00000D41F61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828BE38915BAA00000D41F61 /* Missing Emojis */ = {
+			isa = PBXGroup;
+			children = (
+				828BE39215BAA00000D41F61 /* AppDelegate.h */,
+				828BE39315BAA00000D41F61 /* AppDelegate.m */,
+				828BE39515BAA00000D41F61 /* MainStoryboard_iPhone.storyboard */,
+				828BE39815BAA00000D41F61 /* MainStoryboard_iPad.storyboard */,
+				828BE39B15BAA00000D41F61 /* ViewController.h */,
+				828BE39C15BAA00000D41F61 /* ViewController.m */,
+				828BE38A15BAA00000D41F61 /* Supporting Files */,
+			);
+			path = "Missing Emojis";
+			sourceTree = "<group>";
+		};
+		828BE38A15BAA00000D41F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828BE38B15BAA00000D41F61 /* Missing Emojis-Info.plist */,
+				828BE38C15BAA00000D41F61 /* InfoPlist.strings */,
+				828BE38F15BAA00000D41F61 /* main.m */,
+				828BE39115BAA00000D41F61 /* Missing Emojis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828BE37E15BA9FFF00D41F61 /* Missing Emojis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828BE3A015BAA00000D41F61 /* Build configuration list for PBXNativeTarget "Missing Emojis" */;
+			buildPhases = (
+				828BE37B15BA9FFF00D41F61 /* Sources */,
+				828BE37C15BA9FFF00D41F61 /* Frameworks */,
+				828BE37D15BA9FFF00D41F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Missing Emojis";
+			productName = "Missing Emojis";
+			productReference = 828BE37F15BA9FFF00D41F61 /* Missing Emojis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828BE37615BA9FFF00D41F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 828BE37915BA9FFF00D41F61 /* Build configuration list for PBXProject "Missing Emojis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 828BE37415BA9FFF00D41F61;
+			productRefGroup = 828BE38015BA9FFF00D41F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828BE37E15BA9FFF00D41F61 /* Missing Emojis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828BE37D15BA9FFF00D41F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828BE38E15BAA00000D41F61 /* InfoPlist.strings in Resources */,
+				828BE39715BAA00000D41F61 /* MainStoryboard_iPhone.storyboard in Resources */,
+				828BE39A15BAA00000D41F61 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828BE37B15BA9FFF00D41F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828BE39015BAA00000D41F61 /* main.m in Sources */,
+				828BE39415BAA00000D41F61 /* AppDelegate.m in Sources */,
+				828BE39D15BAA00000D41F61 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		828BE38C15BAA00000D41F61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828BE38D15BAA00000D41F61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		828BE39515BAA00000D41F61 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828BE39615BAA00000D41F61 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		828BE39815BAA00000D41F61 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828BE39915BAA00000D41F61 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828BE39E15BAA00000D41F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		828BE39F15BAA00000D41F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		828BE3A115BAA00000D41F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Missing Emojis/Missing Emojis-Prefix.pch";
+				INFOPLIST_FILE = "Missing Emojis/Missing Emojis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		828BE3A215BAA00000D41F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Missing Emojis/Missing Emojis-Prefix.pch";
+				INFOPLIST_FILE = "Missing Emojis/Missing Emojis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828BE37915BA9FFF00D41F61 /* Build configuration list for PBXProject "Missing Emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828BE39E15BAA00000D41F61 /* Debug */,
+				828BE39F15BAA00000D41F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828BE3A015BAA00000D41F61 /* Build configuration list for PBXNativeTarget "Missing Emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828BE3A115BAA00000D41F61 /* Debug */,
+				828BE3A215BAA00000D41F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828BE37615BA9FFF00D41F61 /* Project object */;
+}
